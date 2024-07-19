@@ -10,9 +10,9 @@ What EpicChain Offers
 - **Interactive CLI**: Configure nodes and inspect blockchain status with a comprehensive command-line interface.
 - **Smart Contracts**: Compile, test, deploy, and execute smart contracts written in various programming languages, including Python. Supports smart contracts in the `.avm` format.
 - **Wallet Functionality**: Basic wallet functionalities (still under development and not yet recommended for mainnet use).
-- **Compliance**: Supports NEP2, NEP5, NEP-7, and NEP-8 standards for seamless token and contract management.
+- **Compliance**: Supports XEP2, XEP5, XEP-7, and XEP-8 standards for seamless token and contract management.
 - **RPC Services**: Includes RPC client and server for communication and data exchange.
-- **Notification Server**: View real-time transfers of NEP5 tokens with integrated notification services.
+- **Notification Server**: View real-time transfers of XEP5 tokens with integrated notification services.
 - **Event Monitoring**: Track `Runtime.Log` and `Runtime.Notify` events for comprehensive monitoring.
 
 Future Capabilities
