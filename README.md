@@ -73,7 +73,7 @@ Native Installation
 EpicChain is compatible with **Python 3.7 and later**. Install it via your package manager or download it from the `official homepage <https://www.python.org/downloads/>`_.
 
 Installation Steps
-~~~~~~~~~~~~~~~~~~
+
 
 It's recommended to use a virtual environment to manage project dependencies and avoid conflicts.
 
@@ -170,7 +170,7 @@ Query for blockchain data by block hash or index:
     epic>
 
 Bootstrapping the Blockchain
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 If you use epicchain-python for the first time, you need to synchronize the
 blockchain, which may take a long time. Included in this project is the script
@@ -209,7 +209,7 @@ To bootstrap the mainnet blockchain, run ``np-bootstrap -m`` and get 8 cups of c
 ``np-bootstrap -m -n``.
 
 Basic Wallet commands
-~~~~~~~~~~~~~~~~~~~~~
+
 
 ::
 
@@ -230,7 +230,7 @@ Basic Wallet commands
 For a complete list of commands use ``help``.
 
 Running on MainNet
-~~~~~~~~~~~~~~~~~~
+
 
 To run the prompt on MainNet, you can use the CLI argument ``-m`` (eg.
 ``np-prompt -m``), for running on PrivNet you can use ``-p``. Be
@@ -260,7 +260,7 @@ sure to check out the details of the parameters:
       --version             show program's version number and exit
 
 Logging
-~~~~~~~
+
 
 Currently, ``np-prompt`` logs to ``prompt.log``
 
@@ -268,7 +268,7 @@ Currently, ``np-prompt`` logs to ``prompt.log``
 Tests
 -----
 
-Note we make use of a Blockchain fixture database (~15 MB). This file is not kept in the repo,
+Note we make use of a Blockchain fixture database (15 MB). This file is not kept in the repo,
 but is downloaded the first time the tests are run, this can take some time (depending on the internet connection),
 but happens only once.
 
