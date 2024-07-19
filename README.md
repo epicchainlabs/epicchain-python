@@ -1,33 +1,9 @@
-Here's an updated and expanded version of your content, adjusted for EpicChain:
 
----
-
-.. image:: https://raw.githubusercontent.com/CityOfZion/visual-identity/develop/_CoZ%20Branding/_Logo/_Logo%20icon/_PNG%20200x178px/CoZ_Icon_DARKBLUE_200x178px.png
-    :alt: EpicChain logo
-
-EpicChain
-----------
-
-EpicChain is a revolutionary blockchain network designed to bring advanced and user-friendly features to the decentralized space. Our goal is to build a robust ecosystem that supports various applications and provides unparalleled flexibility and security.
-
-.. image:: https://img.shields.io/pypi/v/epicchain.svg
-    :target: https://pypi.python.org/pypi/epicchain
-    :alt: PyPI
-.. image:: https://travis-ci.org/EpicChain/epicchain.svg?branch=master
-    :target: https://travis-ci.org/EpicChain/epicchain
-    :alt: Travis CI
-.. image:: https://readthedocs.org/projects/epicchain/badge/?version=latest
-    :target: https://epicchain.readthedocs.io/en/latest/?badge=latest
-    :alt: ReadTheDocs
-.. image:: https://coveralls.io/repos/github/EpicChain/epicchain/badge.svg?branch=master
-    :target: https://coveralls.io/github/EpicChain/epicchain?branch=master
-    :alt: Coveralls
 
 Overview
 --------
 
 What EpicChain Offers
-~~~~~~~~~~~~~~~~~~~~~
 
 - **Alternative Implementation**: EpicChain serves as an advanced implementation of blockchain technology, designed to support the evolving needs of modern applications.
 - **Node Functionality**: Operate a Python-based P2P node for interacting with the blockchain network.
@@ -40,18 +16,15 @@ What EpicChain Offers
 - **Event Monitoring**: Track `Runtime.Log` and `Runtime.Notify` events for comprehensive monitoring.
 
 Future Capabilities
-~~~~~~~~~~~~~~~~~~~
 
 - **Consensus Nodes**: Enhancing the network with robust consensus nodes.
 - **Smart Contract Debugging**: Advanced tools for debugging and inspecting smart contracts.
 
 Documentation
-~~~~~~~~~~~~~
 
 The full documentation on how to install, configure, and use EpicChain is available at `Read The Docs <https://epicchain.readthedocs.io/en/latest/>`.
 
 Get Help or Contribute
-~~~~~~~~~~~~~~~~~~~~~~
 
 - **Report Issues**: Open a new `issue <https://github.com/EpicChain/epicchain/issues/new>`_ if you encounter problems.
 - **Community Support**: Connect with us on the `EpicChain Discord <https://discord.gg/EpicChain>`_ for support and community interaction.
