@@ -130,7 +130,7 @@ class WalletTestCase(NeoTestCase):
 
     def test_privnet_wallet(self):
         """ Simple test if we can open the privnet wallet """
-        wallet = UserWallet.Open(os.path.join(ROOT_INSTALL_PATH, "neo/data/neo-privnet.sample.wallet"), to_aes_key("coz"))
+        wallet = UserWallet.Open(os.path.join(ROOT_INSTALL_PATH, "neo/data/epicchain-privnet.sample.wallet"), to_aes_key("coz"))
 
     def test_wallet_height(self):
         wallet = UserWallet("fakepath", to_aes_key("123"), True)

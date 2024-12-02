@@ -388,7 +388,7 @@ All notable changes to this project are documented in this file.
 - Added TransactionInvocation.GetScript to ``StateReader.py``
 - Fixed missing uri locations in ``neo/api/REST/RestApi.py`` (`PR #342 <https://github.com/CityOfZion/neo-python/pull/342>`_)
 - Fixed privatenet check by fixing the chain path for checks in Settings (`PR #341 <https://github.com/CityOfZion/neo-python/pull/341>`_)
-- Fixed ``neo-privnet.sample.wallet``
+- Fixed ``epicchain-privnet.sample.wallet``
 - Fix for current block height lag behind other RPC implementations by 1-3 blocks
 - Fixed ``bootstrap.py`` to use the specified data directory, instead of hard-coded relative paths.
 - Test chains moved to the user data directory, instead of the projects code path.
@@ -418,7 +418,7 @@ All notable changes to this project are documented in this file.
 - Tries to auto-create ``Chains`` directory in ``--datadir`` if it doesnt exist
 - Add scripts to be exported for package install.  ``np_prompt``, ``np_api_server``, ``np_bootstrap``, and ``np_reencrypt_wallet`` available as commands after ``pip`` install
 - add protocol.*.json into data package
-- move ``neo-privnet.wallet`` to ``neo-privnet.sample.wallet`` and .gitignore ``neo-privnet.wallet``
+- move ``neo-privnet.wallet`` to ``epicchain-privnet.sample.wallet`` and .gitignore ``neo-privnet.wallet``
 - Change ``README.md`` to `README.rst``
 
 

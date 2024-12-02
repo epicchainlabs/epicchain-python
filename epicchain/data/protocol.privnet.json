@@ -1,17 +1,17 @@
 {
 	"ProtocolConfiguration": {
 		"Magic": 56753,
-		"AddressVersion": 23,
+		"AddressVersion": 76,
 		"SecondsPerBlock": 1,
 		"LowPriorityThreshold": 0.001,
 		"StandbyValidators": [
 			"02b3622bf4017bdfe317c58aed5f4c753f206b7db896046fa7d774bbc4bf7f8dc2"
 		],
 		"SeedList": [
-			"85.143.219.93:20333"
+			"85.143.219.93:60111"
 		],
 		"RPCList": [
-			"http://85.143.219.93:30333"
+			"http://85.143.219.93:70111"
 		],
 		"SystemFee": {
 			"EnrollmentTransaction": 1000,
@@ -22,11 +22,11 @@
 	},
 	"ApplicationConfiguration": {
 
-		"RPCPort": 40332,
-		"NodePort": 40333,
-		"WsPort": 40334,
+		"RPCPort": 60111,
+		"NodePort": 60112,
+		"WsPort": 60113,
 		"UriPrefix": [
-			"http://*:40332"
+			"http://*:60111"
 		],
 		"SslCert": "",
 		"SslCertPassword": "",

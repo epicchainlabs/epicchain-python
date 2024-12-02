@@ -586,7 +586,7 @@ class JsonRpcApiTestCase(BlockchainFixtureTestCase, AioHTTPTestCase):
         self.assertEqual(error.get('message', None), "Access denied.")
 
     def test_getwalletheight(self):
-        self.api_server.wallet = UserWallet.Open(os.path.join(ROOT_INSTALL_PATH, "neo/data/neo-privnet.sample.wallet"), to_aes_key("coz"))
+        self.api_server.wallet = UserWallet.Open(os.path.join(ROOT_INSTALL_PATH, "neo/data/epicchain-privnet.sample.wallet"), to_aes_key("coz"))
 
         req = self._gen_post_rpc_req("getwalletheight", params=[])
         res = json.loads(self.do_test_post("/", json=req))
