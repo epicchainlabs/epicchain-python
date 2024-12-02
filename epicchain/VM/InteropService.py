@@ -251,7 +251,7 @@ class Array(StackItem, CollectionMixin):
 
 class Boolean(StackItem):
     TRUE = bytearray([1])
-    FALSE = bytearray()  # restore once https://github.com/neo-project/neo-vm/pull/132 is approved
+    FALSE = bytearray()  # restore once https://github.com/epicchainlabs/neo-vm/pull/132 is approved
 
     def __init__(self, value):
         self._value = value

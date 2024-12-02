@@ -3,7 +3,7 @@ Documentation for the JSON-RPC implementation
 # Links
 
 * http://www.jsonrpc.org/specification
-* https://github.com/neo-project/neo/blob/master/neo/Network/RPC/RpcServer.cs
+* https://github.com/epicchainlabs/neo/blob/master/neo/Network/RPC/RpcServer.cs
 * http://docs.neo.org/en-us/node/api.html
 
 # JSON-RPC API Calls

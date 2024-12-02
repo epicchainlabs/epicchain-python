@@ -135,7 +135,7 @@ class TransactionTestCase(NeoTestCase):
 
     def test_check_miner_tx_size(self):
         """ see original test here
-            https://github.com/neo-project/neo/blob/5ce0e4c3192cdcce700105030ed03197961e0466/neo.UnitTests/UT_MinerTransaction.cs#L39-L48
+            https://github.com/epicchainlabs/neo/blob/5ce0e4c3192cdcce700105030ed03197961e0466/neo.UnitTests/UT_MinerTransaction.cs#L39-L48
         """
         m_tx = MinerTransaction()
         self.assertEqual(m_tx.Size(), 10)
@@ -394,7 +394,7 @@ class TransactionTestCase(NeoTestCase):
 
     def test_invocation_txn_size(self):
         """ For more information about the following test read here
-            https://github.com/neo-project/neo/issues/652
+            https://github.com/epicchainlabs/neo/issues/652
         """
         raw_tx = b"d1015904802b530b14d5a682e81b8a840cc44b3b360cbd0f1ee6f50efd14235a717ed7ed18a43de47499c3d05b8d4a4bcf3a53c1087472616e7366657267fb1c540417067c270dee32f21023aa8b9b71abcef166fc47646b02d3f92300000000000000000120235a717ed7ed18a43de47499c3d05b8d4a4bcf3a0000014140b9234cad658c4d512bca453908a0df1c2beda49c544ec735bb492b81b4d0974ac8d66046061b3d0ce823e27c71fef1ee6a8f2fa369198ac74acedd045901d7222321030ab39b99d8675cd9bd90aaec37cba964297cc817078d33e508ab11f1d245c068ac"
         raw_tx_id = b"c4bb9b638da2e5f4a88ffcc4cb1d4f6693e7f19b7f78d242068254a6c77721f9"  # see https://neoscan.io/transaction/C4BB9B638DA2E5F4A88FFCC4CB1D4F6693E7F19B7F78D242068254A6C77721F9
@@ -413,7 +413,7 @@ class TransactionTestCase(NeoTestCase):
 
     def test_check_invocation_tx_size(self):
         """ See original test here
-            https://github.com/neo-project/neo/blob/master/neo.UnitTests/UT_InvocationTransaction.cs#L52-L69
+            https://github.com/epicchainlabs/neo/blob/master/neo.UnitTests/UT_InvocationTransaction.cs#L52-L69
         """
         i_tx = InvocationTransaction()
         val = GetByteArray(32, 0x42)
@@ -426,7 +426,7 @@ class TransactionTestCase(NeoTestCase):
 
     def test_check_invocation_tx_ToJson(self):
         """ See original test here
-            https://github.com/neo-project/neo/blob/master/neo.UnitTests/UT_InvocationTransaction.cs#L93-L121
+            https://github.com/epicchainlabs/neo/blob/master/neo.UnitTests/UT_InvocationTransaction.cs#L93-L121
         """
         i_tx = InvocationTransaction()
         val = GetByteArray(32, 0x42)

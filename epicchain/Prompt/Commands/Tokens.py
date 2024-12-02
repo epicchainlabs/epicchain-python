@@ -354,7 +354,7 @@ class CommandTokenApprove(CommandBase):
     def handle_help(self, arguments):
         super().handle_help(arguments)
         print(
-            "\nThis is an optional NEP-5 command (now legacy).\nFor more information see https://github.com/neo-project/proposals/blob/c357f5965afc2155615b6b96c7d15da688f81982/nep-5.mediawiki#approve_optional")
+            "\nThis is an optional NEP-5 command (now legacy).\nFor more information see https://github.com/epicchainlabs/proposals/blob/c357f5965afc2155615b6b96c7d15da688f81982/nep-5.mediawiki#approve_optional")
 
 
 class CommandTokenAllowance(CommandBase):

@@ -9,7 +9,7 @@ from neo.Core.Cryptography.Crypto import Crypto
 from neo.Core.Cryptography.Helper import xor_bytes
 
 # NEP-2 constants
-# https://github.com/neo-project/proposals/blob/master/nep-2.mediawiki
+# https://github.com/epicchainlabs/proposals/blob/master/nep-2.mediawiki
 SCRYPT_ITERATIONS = 16384
 SCRYPT_BLOCKSIZE = 8
 SCRYPT_PARALLEL_FACTOR = 8

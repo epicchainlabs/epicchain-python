@@ -675,7 +675,7 @@ class StateMachine(StateReader):
             except ValueError:
                 # exception is caused by an invalid `return_type`. neo-cli accepts this , but we throw an exception
                 # this is a dirty hack to work around the VM state difference that it causes until neo-cli hopefully fixes it
-                # see https://github.com/neo-project/neo/issues/827
+                # see https://github.com/epicchainlabs/neo/issues/827
                 code = FunctionCode(script=script, param_list=param_list, contract_properties=contract_properties)
                 code.ReturnType = return_type
 

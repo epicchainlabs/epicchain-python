@@ -263,8 +263,8 @@ All notable changes to this project are documented in this file.
 - Added an implementation of the ``getbalance`` RPC method. `#465 <https://github.com/CityOfZion/neo-python/pull/465>`_
 - updated seed list, change behavior of restarting NodeLeader when connected nodes falls below 2
 - Add Neo.Blockchain.GetTransactionHeight API
-- Updating Enumerator API for parity with `Neo PR #244 <https://github.com/neo-project/neo/pull/244>`_
-- Unifying interop namespace `Neo PR #254 <https://github.com/neo-project/neo/pull/254>`_
+- Updating Enumerator API for parity with `Neo PR #244 <https://github.com/epicchainlabs/neo/pull/244>`_
+- Unifying interop namespace `Neo PR #254 <https://github.com/epicchainlabs/neo/pull/254>`_
 - Update ``neo-boa`` version to v0.4.7 for new Enumerator/Iterator interop methods and additional python opcode support.
 - Fixed REST API ``/status`` ``current_height`` off-by-one `#475 <https://github.com/CityOfZion/neo-python/pull/475>`_
 
@@ -345,7 +345,7 @@ All notable changes to this project are documented in this file.
 
 [0.6.6] 2018-04-02
 ------------------
-- add ``Neo.Runtime.Serialize`` and ``Neo.Runtime.Deserialize`` for compliance with this (`#163 <https://github.com/neo-project/neo/pull/163>`_)
+- add ``Neo.Runtime.Serialize`` and ``Neo.Runtime.Deserialize`` for compliance with this (`#163 <https://github.com/epicchainlabs/neo/pull/163>`_)
 - Fixed IsWalletTransaction to make it compare scripts in transactions to scripts (instead of scripthashes) in wallet contracts and scripthashes of transactions (instead of scripts) to scripthashes of watch-only addresses
 - Python version check in ``Settings.py``: fail if not Python 3.6+ (can be disabled with env var ``SKIP_PY_CHECK``)
 
@@ -382,7 +382,7 @@ All notable changes to this project are documented in this file.
 
 [0.6.2] 2018-03-21
 ------------------
-- Implementing interop type ``MAP`` along with new opcodes ``NEWMAP HASKEY KEYS VALUES`` and modify ``ARRAYSIZE PICKITEM SETITEM REMOVE`` to support ``MAP`` as `per PR here <https://github.com/neo-project/neo-vm/pull/28>__`
+- Implementing interop type ``MAP`` along with new opcodes ``NEWMAP HASKEY KEYS VALUES`` and modify ``ARRAYSIZE PICKITEM SETITEM REMOVE`` to support ``MAP`` as `per PR here <https://github.com/epicchainlabs/neo-vm/pull/28>__`
 - Added support for using ``--from-addr=`` to specify the address to use for ``testinvoke`` in ``prompt.py``. (`PR #329 <https://github.com/CityOfZion/neo-python/pull/329>`_)
 - Fixed ``neo/bin/prompt.py`` to redact WIF keys, nep2 keys and contract metadata from the command history file ``.prompt.py.history``.
 - Added TransactionInvocation.GetScript to ``StateReader.py``

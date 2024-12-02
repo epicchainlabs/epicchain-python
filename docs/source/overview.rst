@@ -13,9 +13,9 @@ What it currently does
 - `RPC Client <https://github.com/CityOfZion/neo-python-rpc>`_ and RPC Server.
 - Notification server with optional REST endpoints (for viewing transfers of NEP5 tokens).
 - ``Runtime.Log`` and ``Runtime.Notify`` event monitoring.
-- `NEP2 <https://github.com/neo-project/proposals/blob/master/nep-2.mediawiki>`_ and `NEP5 <https://github.com/neo-project/proposals/blob/master/nep-5.mediawiki>`_ compliant wallet.
+- `NEP2 <https://github.com/epicchainlabs/proposals/blob/master/nep-2.mediawiki>`_ and `NEP5 <https://github.com/epicchainlabs/proposals/blob/master/nep-5.mediawiki>`_ compliant wallet.
 -  This project aimed to be an alternative implementation for the original C# `NEO
-   project <https://github.com/neo-project>`_.
+   project <https://github.com/epicchainlabs>`_.
 
 
 Neo 3
